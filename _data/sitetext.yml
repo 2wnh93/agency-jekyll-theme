@@ -11,126 +11,133 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome!
+    text: I'm Zawanah
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#portfolio"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  # services:
+  #   title: "Services"
+  #   text: "Lorem ipsum"
+  #   section: services
+  #   list:
+  #     - title: "E-Commerce"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+  #     - title: "Responsive Design"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-laptop
+  #     - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+  #       desc: "Your description here, full **Markdown** support"
+  #       icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Do. Or do not. There is no try."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: "A mind that is stretched by new experience can never get back to its old dimensions."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Math Geek in School"
+        year: "1993-2012"
+        desc: "I enjoy Math, was part of the Math Olympiad Programme and took part in International and National Competitions. Earned **Distinctions, Bronze Awards and Honourable Mentions**.
+        Earned **5 Distinctions** in *Biology, Chemistry, Economics and Malay* in Junior College, while carrying out duties as **House Councillor**. "
+        image: assets/img/timeline/i-love-math.png
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "National University of Singapore (NUS)"
+        year: "2012-2016"
+        desc: "I wanted to learn more about current affairs and at the same time live my life with Math, so I enrolled into **Business Administration (Accountancy)**.
+        It was not what I expected, but the experience was a *real eye opener*. I learnt a lot of things that I would not have if I didn't push myself out of my comfort zone which is Math.
+        Got more interested in what's happening around the world, learnt **presentation skills**, **project management** and started enjoying them, learnt **professionalism**."
+        image: assets/img/timeline/nus.png
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Audit"
+        year: "2016-2020"
+        desc: "**4 years of experience** as an external auditor. Range of clients include those in *Construction, Energy and Technology*. Everyday is different and I enjoy **problem solving** each day.
+        **Earned Chartered Accountant of Singapore (CA Singapore) title**.
+        It was also this period where exposure to *all sorts of business processes in different industries* made me realise that there are **tonnes of data to leverage and learn from**, that can value-add to make more well-informed decisions."
+        image: assets/img/timeline/acc.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "General Assembly (GA)"
+        year: "2020-2021"
+        desc: "After careful consideration, left a comfortable job to *pivot my career into* **Data Science**. Dabbled in some *personal projects (BlueSg, Stock Market Analysis)* but felt like I was taking too long (ie. 2 weeks) so I enrolled in *General Assembly's Data Science Immersive (DSI) programme*
+        DSI turned out to be one of the tougher courses in GA. It was **challenging yet really fun!** I enjoyed the whole learning process. The environment was conducive, especially since my batchmates and I, we're **united by our goal to learn and explore this field together**."
+        image: assets/img/timeline/ga.png
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Still <br> to <br> Come!"
 
   about:
     title: "About Us"
     text: "our story"
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+  #   section: clients
+  #   max-height: 100px
+  #   horizontal-scrolling: "" #"yes/no"
+  #   list:
+  #     - title: "envato"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/envato.jpg
+  #     - title: "designmodo"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/designmodo.jpg
+  #     - title: "themeforest"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/themeforest.jpg
+  #     - title: "Creative Market"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Connect"
+    text: "Keep in touch!"
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Zawanah Sainuddin"
+        role: "Data Scientist"
+        image: assets/img/team/pic-in-car.jpg
+        align: center
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/zawanah/
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
+          - url: https://github.com/2wnh93
+            icon: fab fa-github
+          - url: https://twitter.com/_zawanah_
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      # - name: "Larry Parker"
+      #   role: "Lead Marketer"
+      #   image: assets/img/team/2.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+      # - name: "Diana Perterson"
+      #   role: "Lead Developer"
+      #   image: assets/img/team/500x500.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Comments"
+    text: "Fill this in or feel free to reach out!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -145,17 +152,17 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
