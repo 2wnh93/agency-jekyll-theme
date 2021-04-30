@@ -69,7 +69,7 @@ I sorted the dataframe based on distance.
 
 Results:
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/mostaccessible.jpeg)
+![]assets/img/portfolio/bluesg/mostaccessible.jpeg)
 
 We see that 35A, Marine Crescent is most accessible to a BlueSg charging station at about 1.86 metres away from it.
 
