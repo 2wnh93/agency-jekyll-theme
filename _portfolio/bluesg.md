@@ -30,7 +30,7 @@ I first webscrape from BlueSg website, to obtain the locations of BlueSg chargin
 
 Once I've cleaned the data and do a sanity check on the number of BlueSg charging stations in my data, I then create a dataframe and proceed to visualise it on the map using *folium*.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/chrgstnplot.jpeg)
+![](assets/img/portfolio/bluesg/chrgstnplot.jpeg)
 
 A quick overview of the map shows that BlueSg charging stations are available in most parts of Singapore except for a few. For instance:
 
@@ -57,7 +57,7 @@ It's got a pretty clean data, so there is not much processing needed.
 
 Combining both HDB and private properties addresses, I then visualise this on the map.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/residentialplot.jpeg)
+![](assets/img/portfolio/bluesg/residentialplot.jpeg)
 
 ## Compute haversine distances between BlueSg charging stations and residential blocks
 
@@ -69,7 +69,7 @@ I sorted the dataframe based on distance.
 
 Results:
 
-![]assets/img/portfolio/bluesg/mostaccessible.jpeg)
+![](assets/img/portfolio/bluesg/mostaccessible.jpeg)
 
 We see that 35A, Marine Crescent is most accessible to a BlueSg charging station at about 1.86 metres away from it.
 
@@ -77,23 +77,23 @@ We can also pick up the top 5 most accessible blocks to a BlueSg charging statio
 
 These are the five most accessible blocks to a BlueSg charging station :
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/5mostaccessible.jpeg)
+![](assets/img/portfolio/bluesg/5mostaccessible.jpeg)
 
 Let's look at this in a map.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/5mostaccessibleplot.jpeg)
+![](assets/img/portfolio/bluesg/5mostaccessibleplot.jpeg)
 
 ## Which residential area is the least accessible to a BlueSg charging station?
 
 From the sorted data, we create a new dataframe which contain the minimum distance of a residential address to a charging station. The ones with the longest minimum distance from the charging station will be the least accessible.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/leastaccessible5.png)
+![](assets/img/portfolio/bluesg/leastaccessible5.png)
 
 Most are at Changi Village area.
 
 In a map,
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/leastaccessible5plot.png)
+![](assets/img/portfolio/bluesg/leastaccessible5plot.png)
 
 Red markers are the homes while the green markers are the nearest BlueSg charging stations. Changi Village does not seem very accessible even via public transport. It is likely that anyone who lives there or planning to travel to Changi Village, owns at least a car.
 
@@ -101,13 +101,13 @@ Red markers are the homes while the green markers are the nearest BlueSg chargin
 
 I slice the sorted dataframe to take in only those within 200m distances and then plot this in a map.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/accessible200mplot1.png)
+![](assets/img/portfolio/bluesg/accessible200mplot1.png)
 
 Seems like it is pretty spread out across Singapore. However, there are still not many residential areas that are accessible to a BlueSg charging station.
 
 If we zoom into one location, say Whampoa area, we can see a charging station (in Teal marker) servicing residential areas (in Red marker) which are within 200m.
 
-![alt]({{ site.url }}{{ site.baseurl }}assets/img/portfolio/bluesg/accessible200mplot2.png)
+![](assets/img/portfolio/bluesg/accessible200mplot2.png)
 
 ## Overall Review
 
