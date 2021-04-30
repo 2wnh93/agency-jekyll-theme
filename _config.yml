@@ -27,7 +27,7 @@ author     : Zawanah
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: G-N08M5Z3VJ8
 
 collections:
   portfolio:
