@@ -1,17 +1,38 @@
 ---
-title: Covid19 Impact on Stock Performance
-subtitle: Explore how Covid19 affected stock performance for various industries
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
-
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  title: Covid19 Impact on Stock Performance
+  subtitle: Explore how Covid19 affected stock performance for various industries
+  thumbnail: assets/img/portfolio/covid19onstock/header.jpeg
+
+title: Covid19 Impact on Stock Performance
+subtitle: Explore how Covid19 affected stock performance for various industries - Technology, Aviation, Healthcare, Energy (Oil) and Energy (Alternative)
+image: assets/img/portfolio/covid19onstock/header.jpeg
+
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+## Preamble
+
+As economies around the world are suffering from the impact of Covid-19, various industries are affected in different ways. Aviation companies are struggling as countries close their borders under lockdown, while pharmaceutical companies are taking centre stage in the race towards treatment approval. Also, Tech companies seem to be doing well.
+
+In this project, we will look at the **impact of Covid-19 on a basket of stocks in each of the following industries**:
+* Technology
+* Aviation
+* Healthcare
+* Energy - Oil
+* Energy - Alternative
+
+After importing the necessary libraries, I've selected 5 stocks for each industry below:
+
+```python
+stockset = {
+    'tech': ['TSLA', 'AAPL', 'GOOG', 'AMZN', 'ZM'],
+    'avia': ['AAL', 'UAL', 'LUV', 'DAL', 'JBLU'],
+    'phar': ['PFE', 'JNJ', 'GSK', 'MRNA', 'BNTX'],
+    'fuel': ['TNK', 'TRMD', 'TALO', 'HMLP', 'WLL'],
+    'alte': ['BEP', 'FSLR', 'NEE', 'CSIQ', 'JKS']
+}
+```
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
+- Date: 8 Oct 2020
 - Category: Illustration
