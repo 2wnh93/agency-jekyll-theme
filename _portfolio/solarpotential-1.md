@@ -111,7 +111,7 @@ Considering the voluminous data, I decided to just look at 10 years' worth of da
 
 First I look at how solar energy potential changes within a day (24 hours) (Figure 7).
 
-![](assets/24h-by-country.JPG)
+![](assets/img/portfolio/solar/24h-by-country.JPG)
 
 *Figure 7: Hourly solar energy potential for each country*
 

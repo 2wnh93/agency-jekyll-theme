@@ -39,7 +39,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "About"
-    text: "A mind that is stretched by new experience can never get back to its old dimensions."
+    text: "Growing up is the realisation that you are both the sculpture and the sculptor, the painter and the portrait. Paint yourself however your wish."
     section: timeline
     # left is the default
     #start_align: "left"

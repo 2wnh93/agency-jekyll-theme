@@ -26,7 +26,7 @@ I determine the baseline model to be the **mean** of past solar energy potential
 
 Plotting the true values against baseline predictions (Figure 12), we see that the model does recognise seasonality but did not really identify more complex patterns.
 
-![](assets/img/portfolio/solar/baseline-predictions.jpg)
+![](assets/img/portfolio/solar/baseline-predictions.JPG)
 
 *Figure 12: Baseline predictions against true values of test set*
 
@@ -58,7 +58,7 @@ FB prophet is a powerful library and has hyperparameters that can tune seasonali
 
 After tuning its hyperparameters, indeed, it did perform slightly better than earlier models.
 
-![](assets/img/portfolio/solar/fbprophet-predictions.jpg)
+![](assets/img/portfolio/solar/fbprophet-predictions.JPG)
 
 *Figure 13: FB Prophet predictions against true values of test set*
 
@@ -81,7 +81,7 @@ First, I used a simple recurrent neural network (RNN) to predict. RNN is a class
 
 Running the simple RNN, it performed slightly better than fbprophet.
 
-![](assets/img/portfolio/solar/rnn-predictions.jpg)
+![](assets/img/portfolio/solar/rnn-predictions.JPG)
 
 *Figure 14: RNN predictions against true values of test set*
 
@@ -91,7 +91,7 @@ I also attempted to predict with Long Short-Term Memory (LSTM). LSTMs includes a
 
 From Figure 15, it did just slightly better than RNN, which makes sense since the model would be also be able to account for seasonality.
 
-![](assets/img/portfolio/solar/lstm-predictions.jpg)
+![](assets/img/portfolio/solar/lstm-predictions.JPG)
 
 *Figure 15: LSTM predictions against true values of test set*
 
@@ -99,6 +99,7 @@ From Figure 15, it did just slightly better than RNN, which makes sense since th
 
 Here's a summary of results of predictions :
 
+<center>
 | Model | RMSE | MAE |
 | :-----: | :--: | :---: |
 | Baseline | 0.0524 | 0.0258 |
@@ -109,6 +110,7 @@ Here's a summary of results of predictions :
 | FB Prophet | 0.0491 | 0.0293 |
 | RNN | 0.0381 | 0.0197 |
 | LSTM | 0.0353 | 0.0173 |
+</center>
 
 LSTM is most accurate in predicting solar energy potential and this model appear to be stable to help with more effective grid management.
 
