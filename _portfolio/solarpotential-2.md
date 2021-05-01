@@ -99,7 +99,6 @@ From Figure 15, it did just slightly better than RNN, which makes sense since th
 
 Here's a summary of results of predictions :
 
-<center>
 | Model | RMSE | MAE |
 | :-----: | :--: | :---: |
 | Baseline | 0.0524 | 0.0258 |
@@ -110,7 +109,6 @@ Here's a summary of results of predictions :
 | FB Prophet | 0.0491 | 0.0293 |
 | RNN | 0.0381 | 0.0197 |
 | LSTM | 0.0353 | 0.0173 |
-</center>
 
 LSTM is most accurate in predicting solar energy potential and this model appear to be stable to help with more effective grid management.
 
