@@ -36,6 +36,7 @@ Results of model based no RMSE and MAE as evaluation metrics, below :
 | :-----: | :--: | :---: |
 | Baseline | 0.0524 | 0.0258 |
 
+
 #### Models Considered : Linear Regression, Random Forest Regressor, K Neighbours Regressor and XG Boost Regressor.
 
 I ran the train set on these models considered, and results of training set are tabled below :
@@ -47,6 +48,7 @@ I ran the train set on these models considered, and results of training set are 
 | Random Forest | 0.0542 | 0.0268 |
 | K Neighbors | 0.0622 | 0.0313 |
 | XG Boost | 0.0554 | 0.0346 |
+
 
 From here, sadly, none of the models did better than baseline. The closest is linear regression. It could be that other models are too complex for forecasting with just a few features, such that linear regression did the best. It is also likely that tree regressors may not be suitable for forecasting, especially to recognise seasonality.
 
@@ -73,6 +75,7 @@ From Figure 13 above, we see that the predictions are closer to the true values 
 | XG Boost | 0.0554 | 0.0346 |
 | FB Prophet | 0.0491 | 0.0293 |
 
+
 FB Prophet had the best score amongst other models! I then try to beat that score using neural networks.
 
 #### Modelling with neural networks
@@ -82,7 +85,6 @@ First, I used a simple recurrent neural network (RNN) to predict. RNN is a class
 Running the simple RNN, it performed slightly better than fbprophet.
 
 ![](assets/img/portfolio/solar/rnn-predictions.JPG)
-
 *Figure 14: RNN predictions against true values of test set*
 
 While fbprophet was able to capture seasonality, it is likely that taking into consideration the solar energy potential in the previous hour is equally or more important for the model to predict.
@@ -92,7 +94,6 @@ I also attempted to predict with Long Short-Term Memory (LSTM). LSTMs includes a
 From Figure 15, it did just slightly better than RNN, which makes sense since the model would be also be able to account for seasonality.
 
 ![](assets/img/portfolio/solar/lstm-predictions.JPG)
-
 *Figure 15: LSTM predictions against true values of test set*
 
 ### Conclusion and Recommendation
@@ -109,6 +110,7 @@ Here's a summary of results of predictions :
 | FB Prophet | 0.0491 | 0.0293 |
 | RNN | 0.0381 | 0.0197 |
 | LSTM | 0.0353 | 0.0173 |
+
 
 LSTM is most accurate in predicting solar energy potential and this model appear to be stable to help with more effective grid management.
 
