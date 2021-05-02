@@ -1,10 +1,10 @@
 ---
 caption:
-  title: Analyse subreddits r/Conservation and r/democrats
+  title: Subreddits r/Conservatives and r/democrats
   subtitle: Explore discussions in each subreddit and train models to classify posts into respective political leaning
   thumbnail: assets/img/portfolio/redditapi/demo-repub.png
 
-title: Analyse subreddits r/Conservation and r/democrats
+title: Subreddits r/Conservatives and r/democrats
 subtitle: Explore discussions in each subreddit and train classification models to classify posts to get insights into political leaning of a typical reddit post
 image: assets/img/portfolio/redditapi/demo-repub.png
 
