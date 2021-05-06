@@ -14,11 +14,11 @@ alt: image alt text
 
 ## Preamble
 
-I've seen BlueSg cars around for a while a few years back and thought I wanted to give it a go, only to be disappointed that there aren't any charging stations near my home (ie. I would still have to take a bus and climb uphill after parking the BlueSg car), which would defeat the purpose of having the car.
+BlueSg cars started appearing in Singapore a few years ago and have really gained market share since. BlueSg is a car-sharing service in Singapore that is electric-powered. I thought I wanted to give it a go, only to be disappointed that there weren't any charging stations near my home. No charging stations nearby meant that I still had to take a bus and climb uphill after parking the BlueSg car, which would defeat the purpose of having the car.
 
-So I got that idea out of my head, until recently, where I start to put a higher price on convenience (yes, public transport is not as convenient, especially when you stay on a hill and as I age, I value time and energy a lot more) and I also noticed more BlueSg stations around.
+So I let that idea go. However, I've recently started to value convenience more. As I've grown older, I've started valuing my time and energy a lot more, and when you stay on top of a hill as I do, public transport isn't convenient.
 
-I then decided to do a more detailed study to **determine how accessible these stations are to the general population of Singapore** and explore the following questions:
+So I decided to do a more detailed study to **determine how accessible these stations are to the general population of Singapore** and explore the following questions:
 
 - which residential block is *most* accessible to a BlueSg station
 - which residential block is *least* accessible to a BlueSg station
