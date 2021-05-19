@@ -33,7 +33,8 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Do. Or do not. There is no try."
+    text: "The costs of battle are often great, especially when you are over-committed. There are many people who sacrifice everything for a cause, business or project - only to realize that the costs they had
+    incurred were far too great. It is easy to be blinded by your own ambition, to lose your sense of realism. When this kind of tunnel vision occurs, you are defenseless, since you will only become more invested with time (more sunk costs) - Strategy 8 (The 33 Strategies of War)"
     section: portfolio
     closebutton: "Close"
 
